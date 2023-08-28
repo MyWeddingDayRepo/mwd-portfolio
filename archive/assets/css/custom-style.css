@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Prata&display=swap');
+.wedding-font {
+  font-family: 'Prata', cursive;
+  font-size: 20px !important;
+}
+
+.title-wedding-font {
+  font-family: 'Dancing Script', cursive;
+  font-size: 120px !important;
+}
+
+.subtitle-wedding-font {
+  font-family: 'Prata', cursive;
+  font-size: 60px !important;
+}
+
+.title-wedding-gradient {
+  background: -webkit-linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.portfolio .thumbnail-inner::before {
+    background-color: #ff9a9e !important;
+    background-image: linear-gradient(#ff9a9e 10%, #000000 100%) !important;
+}
+
+#scrollUp {
+    color: #ff9a9e !important;
+}
+
+.thumbnail-inner{
+    /* Add shadow */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+} 
